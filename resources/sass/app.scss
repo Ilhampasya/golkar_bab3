@@ -1,0 +1,21 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    .filter-blur-3 {
+        filter: blur(3px);
+    }
+  }
+}
+
+body {
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+// Variables
+@import 'variables';
+@import 'mixins';

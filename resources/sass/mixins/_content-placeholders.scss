@@ -1,0 +1,6 @@
+.vue-content-placeholders-text__line {
+  background: #5d6267 !important;
+  &::before {
+    background: linear-gradient(to right, transparent 0%, #b1b0ab 15%, transparent 30%) !important;
+  }
+}
